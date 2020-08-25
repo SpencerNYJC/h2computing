@@ -25,5 +25,3 @@ x.lower().upper().lstrip('L')
 | replace([chars])           |                   Replace characters in string |
 | index(sub[, start[, end]]) |                 Search substring within string |
 | isalpha()                  |          Check if all characters are alphabets |
-
-

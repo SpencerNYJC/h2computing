@@ -40,13 +40,27 @@ Output: int
 
 #### Comparators
 
+| Usage    | Description                     | True examples      |
+| -------- | ------------------------------- | ------------------ |
+| `a == b` | a is equal to b                 | `1 == 1`           |
+| `a != b` | a is not equal to b             | `1 != 2`           |
+| `a > b`  | a is greater than b             | `2 > 1`            |
+| `a >= b` | a is greater than or equal to b | `2 >= 1`, `1 >= 1` |
+| `a < b`  | a is less than b                | `1 < 2`            |
+| `a <= b` | a is less than or equal to b    | `1 <= 2`, `1 <= 1` |
+
+| Usage     | Description                               | True example                      |
+| --------- | ----------------------------------------- | --------------------------------- |
+| `a and b` | a is True and b is True                   | `1 == 1 and 2 == 2`               |
+| `a or b`  | a is True, b is True or they're both True | `False or 1 == 1`, `True or True` |
+
 ```python
-a == b
-a != b
-a < b
-a <= b
-a > b
-a >= b
+>> a = 1
+>> b = 2
+>> a == b
+False
+>> a is not b
+True
 ```
 
 #### Booleans
@@ -55,3 +69,4 @@ a >= b
 True
 False
 ```
+

@@ -1,4 +1,4 @@
-## Python Notes for H2 Computing
+## Operators and Types
 
 #### Operators
 | Operator |    Function    |              Usage |

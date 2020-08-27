@@ -101,8 +101,3 @@ class Example():
   * can be accessed by inherited classes but not outside the base class
 - Private member
   * cannot be accessed by inherited classes and outside the base class
-
-
-
-
-
